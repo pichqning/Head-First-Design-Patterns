@@ -6,6 +6,7 @@ public class GumballMachine {
 	State noQuarterState;
 	State hasQuarterState;
 	State soldState;
+	State jackpotState;
  
 	State state;
 	int count = 0;
@@ -76,7 +77,8 @@ public class GumballMachine {
     public State getSoldState() {
         return soldState;
     }
- 
+
+
 	public String toString() {
 		StringBuffer result = new StringBuffer();
 		result.append("\nMighty Gumball, Inc.");

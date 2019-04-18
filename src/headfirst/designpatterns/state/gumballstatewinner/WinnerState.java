@@ -34,7 +34,12 @@ public class WinnerState implements State {
 			}
 		}
 	}
- 
+
+	@Override
+	public void tryMyLuck() {
+		System.out.println("You just spend your coins.");
+	}
+
 	public void refill() { }
 	
 	public String toString() {

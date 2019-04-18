@@ -28,7 +28,12 @@ public class SoldState implements State {
 			gumballMachine.setState(gumballMachine.getSoldOutState());
 		}
 	}
-	
+
+	@Override
+	public void tryMyLuck() {
+		System.out.println("Turning twice maybe you get another chance of 10 gumballs");
+	}
+
 	public void refill() { }
  
 	public String toString() {

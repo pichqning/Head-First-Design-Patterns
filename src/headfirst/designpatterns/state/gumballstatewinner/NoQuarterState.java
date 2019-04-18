@@ -22,8 +22,12 @@ public class NoQuarterState implements State {
  
 	public void dispense() {
 		System.out.println("You need to pay first");
-	} 
-	
+	}
+
+	public void tryMyLuck() {
+		System.out.println("You turned, but there's no quarter");
+	}
+
 	public void refill() { }
  
 	public String toString() {
