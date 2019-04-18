@@ -6,6 +6,7 @@ public class MallardDuck extends Duck {
 
 		quackBehavior = new Quack();
 		flyBehavior = new FlyWithWings();
+		multipleBehavior = new SlowMultiply();
 
 	}
 
