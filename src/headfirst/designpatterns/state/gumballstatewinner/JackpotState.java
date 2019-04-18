@@ -33,6 +33,7 @@ public class JackpotState implements State {
                 gumballMachine.releaseBall();
             }
             System.out.println("YOU'RE JACKPOT! You got 20 gumballs for your quarter");
+
             if (gumballMachine.getCount() > 0) {
                 gumballMachine.setState(gumballMachine.getNoQuarterState());
             } else {
