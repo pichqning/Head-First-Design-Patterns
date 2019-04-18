@@ -25,7 +25,7 @@ public class JackpotState implements State {
         if (gumballMachine.getCount() == 0) {
             gumballMachine.setState(gumballMachine.getSoldOutState());
         } else {
-            for (int i = 1 ; i <= 20 ; i++) {
+            for (int i = 1 ; i < 20 ; i++) {
                 if (gumballMachine.getCount() == 0) {
                     gumballMachine.setState(gumballMachine.getSoldOutState());
                     break;

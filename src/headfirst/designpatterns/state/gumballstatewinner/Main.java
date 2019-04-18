@@ -22,22 +22,18 @@ public class Main {
             switch (command) {
                 case 1:
                     gumballMachine.insertQuarter();
-                    System.out.println();
                     System.out.println(gumballMachine.toString());
                     break;
                 case 2:
                     gumballMachine.ejectQuarter();
-                    System.out.println();
                     System.out.println(gumballMachine.toString());
                     break;
                 case 3:
                     gumballMachine.turnCrank();
-                    System.out.println();
                     System.out.println(gumballMachine.toString());
                     break;
                 case 4:
                     gumballMachine.tryMyLuck();
-                    System.out.println();
                     System.out.println(gumballMachine.toString());
                     break;
                 default:
